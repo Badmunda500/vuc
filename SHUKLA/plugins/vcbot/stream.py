@@ -1,6 +1,5 @@
 from asyncio.queues import QueueEmpty
 from pyrogram import filters
-from pytgcalls.exceptions import GroupCallNotFound
 
 from ... import app, call, cdz, eor, sudo_users_only
 from ...modules.mongo.streams import get_chat_id
