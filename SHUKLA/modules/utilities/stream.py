@@ -1,5 +1,4 @@
 import httpx
-from pytgcalls.types import AudioStream, MediaStream
 
 async def get_stream_url(query, video=False):
     api_url = "http://3.0.146.239:1470/youtube"
@@ -13,10 +12,6 @@ async def get_stream_url(query, video=False):
         return info.get("stream_url", "")
 
 async def run_stream(file, stream_type):
-    """
-    Creates a stream object for pytgcalls based on the file and stream type.
-    Replace this with your actual run_stream implementation if different.
-    """
     if stream_type == "Audio":
-        return MediaStream(file, audio_parameters=AudioStream())
+        return file
     raise ValueError(f"Unsupported stream type: {stream_type}")
