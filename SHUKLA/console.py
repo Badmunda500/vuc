@@ -28,15 +28,15 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
-OWNER_ID = int(getenv("OWNER_ID", "6762113050"))
+API_ID = 25742938
+API_HASH = "b35b715fe8dc0a58e8048988286fc5b6"
+BOT_TOKEN = "7572603594:AAGxTjf9vxeAcu5M2o0BzM77kp4L5sBukYY"
+STRING_SESSION = "BQGIzloAI3k7Y48rP6dUcXL5RXJzx6Dmy5ODxIMsjm84XD0S_V4vN5LOo-ZF6iF_httWgkZ5JdHg2ILiyQOk4-T9Quos9lA1mTy3j8R5ncBZbFk0b4Mm_40Ad_VcDKCyxW5F6xqKoaIlzf1bcinj0pwL2ypYo0j05N129nqkI9RdQhXTghA_lNYWvWuP8Nyzlc6e7Ph9liD2gXkDV4Aly0Sw_HK2KB7vw5Bg4l9jUWImgE5FC-6--YHcsIRYYRrvTEdkYg50yRKPALWkwkzBhiRX4NuXTOak97kVKa7iUu6t3LjipAgMdRmH6n5YVyiUVJhMpuFV1jkpsRwu5vzADb6wjUVULgAAAAHFZddoAA"
+MONGO_DB_URL = "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/"
+LOG_GROUP_ID = "-1002093247039"
+OWNER_ID = int(getenv("OWNER_ID", "7588172591"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", None)
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6919199044").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "7588172591").split()))
 ALIVE_PIC = getenv("ALIVE_PIC", "https://files.catbox.moe/uufiry.jpg")
 
 
